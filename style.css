@@ -1,0 +1,223 @@
+*{margin: 0;padding: 0;}
+
+body{
+	overflow: hidden;
+
+}
+
+#langit{
+	background-image: url('sky.png');
+}
+
+
+.bulan{
+	position: fixed;
+	width: 15px;
+	height: 15px;
+	background: orange;
+	left: 70px;
+	top: 50px;
+	background: yellow;
+
+	filter: alpha(opacity=10);
+	opacity: .1;
+
+	border-radius: 50%;
+
+
+	-webkit-animation: bercahaya 1s linear infinite;
+	animation: bercahaya 3s linear infinite;
+}
+
+.no1 {	
+position: absolute; 
+top: 90px;
+filter: alpha(opacity=80);
+opacity: 0.8
+margin-left: -300px;
+margin-top: -300px;	
+  animation: jalankanawan 15s linear infinite;
+  z-index: 0;
+}
+
+.no2 {	
+position: absolute; 
+left: 200px;
+transform: scale(1);
+filter: alpha(opacity=60);
+opacity: 0.6;
+margin-left: -300px;
+margin-top: -300px;	
+  animation: jalankanawan 25s linear infinite;
+  z-index: 0;
+}
+
+.no3 {
+position: absolute; 
+left: -250px;
+top: -200px;
+transform: scale(0.8);
+filter: alpha(opacity=80);
+opacity: 0.8;
+margin-left: -300px;
+margin-top: -300px;	
+  animation: jalankanawan 20s linear infinite;
+  z-index: 0;
+}
+
+.no4 {
+position: absolute; 
+left: 470px;
+top: -250;
+transform: scale(0.75);
+filter: alpha(opacity=75);
+opacity: 0.75;
+margin-left: -300px;
+margin-top: -300px;	
+  animation: jalankanawan 18s linear infinite;
+  z-index: 0;
+}
+
+.no5 {
+position: absolute; 
+left: -150px;
+top: -150px;
+transform: scale(0.9);
+filter: alpha(opacity=80);
+opacity: 0.8;
+margin-left: -300px;
+margin-top: -300px;	
+  animation: jalankanawan 20s linear infinite;
+  z-index: 0;
+}
+
+.no6 {	
+position: absolute; 
+top: 120px;
+left: 100px;
+transform: scale(1);
+filter: alpha(opacity=85);
+opacity: 0.85;
+margin-left: -300px;
+margin-top: -300px;	
+  animation: jalankanawan 14s linear infinite;
+  z-index: 0;
+}
+
+
+.box3 {	
+	position: absolute; 
+	left: 50%;
+	top: 50%;
+   width: 600px; 
+   height: 600px;	
+	margin-left: -300px;
+	margin-top: -300px;	
+   animation: jalankanplane 15s linear infinite;
+   z-index: 0;
+}
+
+.box4 {	
+	position: absolute; 
+	right: 50%;
+	top: 50%;
+   width: 600px; 
+   height: 600px;	
+	margin-right: -300px;
+	margin-top: -300px;	
+   animation: jalankanmobil 18s linear infinite;
+   z-index: 0;
+}
+
+.box5 {	
+	position: absolute; 
+	right: 50%;
+	top: 50%;
+   width: 600px; 
+   height: 600px;	
+	margin-right: -300px;
+	margin-top: -300px;	
+   animation: jalankanmobil 10s linear infinite;
+   z-index: 0;
+}
+
+.box6 {	
+	position: absolute; 
+	right: 50%;
+	top: 50%;
+   width: 600px; 
+   height: 600px;	
+	margin-right: -300px;
+	margin-top: -300px;	
+   animation: jalankanmobil 14s linear infinite;
+   z-index: 0;
+}
+
+.box7 {	
+	position: absolute; 
+	right: 50%;
+	top: 50%;
+   width: 600px; 
+   height: 600px;	
+	margin-right: -300px;
+	margin-top: -300px;	
+   animation: jalankanmobil 12s linear infinite;
+   z-index: 0;
+}
+
+.box8 {	
+	position: absolute; 
+	right: 50%;
+	top: 50%;
+   width: 600px; 
+   height: 600px;	
+	margin-right: -300px;
+	margin-top: -300px;	
+   animation: jalankanmobil 8s linear infinite;
+   z-index: 0;
+}
+
+
+@-webkit-keyframes jalankanmobil{
+	0% { margin-right: 1280px;}
+	100%{margin-right: -1280px;}
+}
+
+@-webkit-keyframes jalankanplane{
+	0% { margin-left: 1280px;}
+	100%{margin-left: -1280px;}
+}
+
+
+@-webkit-keyframes jalankanawan{
+	0% { margin-left: 1280px;}
+	100%{margin-left: -1280px;}
+}
+@-moz-keyframes jalankanawan{
+	0% { margin-left: 1280px;}
+	100%{margin-left: -1280px;}
+}
+@-o-keyframes jalankanawan{
+	0% { margin-left: 1280px;}
+	100%{margin-left: -1280px;}
+}
+
+
+
+@-webkit-keyframes bercahaya{
+	0% {opacity: .6; box-shadow:3px 3px 35px 35px orange}
+	100%{opacity: .7;box-shadow:3px 3px 40px 40px orange}
+}
+
+@-moz-keyframes bercahaya{
+	0% {opacity: .6; box-shadow:3px 3px 35px 35px orange}
+	100%{opacity: .7;box-shadow:3px 3px 40px 40px orange}
+}
+
+@-o-keyframes bercahaya{
+	0% {opacity: .6; box-shadow:3px 3px 35px 35px orange}
+	100%{opacity: .7;box-shadow:3px 3px 40px 40px orange}
+}
+
+}
+
